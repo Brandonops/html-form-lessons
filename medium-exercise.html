@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset style="display:flex">
+            <legend>Size of Pizza</legend>
+            <p>
+                <input type="radio" name="sizeOfPizza" id="8">
+                <label for="8">8 Inch</label>
+            </p>
+            <p>
+                <input type="radio" name="sizeOfPizza" id="12">
+                <label for="12">12 Inch</label>
+            </p>
+            <p>
+                <input type="radio" name="sizeOfPizza" id="16">
+                <label for="16">16 Inch</label>
+            </p>
+        </fieldset>
+        <fieldset style="display:flex">
+            <legend>Type of Crust</legend>
+            <p>
+                <input type="radio" name="typeOfCrust" id="thin">
+                <label for="thin">Thin Crust</label>
+            </p>
+            <p>
+                <input type="radio" name="typeOfCrust" id="stuffed">
+                <label for="stuffed">Stuffed Crust</label>
+            </p>
+            <p>
+                <input type="radio" name="typeOfCrust" id="doubleStuffed">
+                <label for="doubleStuffed">Double-Stuffed Crust</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Toppings</legend>
+            <p>
+                <label for="">Pepperoni</label>
+                <input type="checkbox" />
+            </p>
+            <p>
+                <label for="">Sausage</label>
+                <input type="checkbox" />
+            </p>
+            <p>
+                <label for="">Bacon</label>
+                <input type="checkbox" />
+            </p>
+            <p>
+                <label for="">Mushrooms</label>
+                <input type="checkbox" />
+            </p>
+            <p>
+                <label for="">Onions</label>
+                <input type="checkbox" />
+            </p>
+            <p>
+                <label for="">Peppers</label>
+                <input type="checkbox" />
+            </p>
+            <p>
+                <label for="">Ham</label>
+                <input type="checkbox" />
+            </p>
+            <p>
+                <label for="">Pineapple</label>
+                <input type="checkbox" />
+            </p>
+            <p>
+                <label for="">Black Olives</label>
+                <input type="checkbox" />
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>How do you want to recieve your pizza?</legend>
+            <label for="method">Delivery or Pickup?</label>
+            <select>
+                <option class="method">Pick up</option>
+                <option class="method">Delivery</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <p>
+                <label for="name">Name for order</label>
+                <br />
+                <input type="text" id="name" placeholder="Bob Smith" />
+            </p>
+            <p>
+                <label for="address">Address</label>
+                <br />
+                <input type="text" id="address" placeholder="123 milky way dr" />
+            </p>
+            <p>
+                <label for="phone">Phone Number</label>
+                <br/>
+                <input type="text" id="phone" placeholder="555-555-2255" />
+            </p>
+            <p>
+                <label for="instructions">Additional Instructions</label>
+                <br/>
+                <textarea id="instructions" cols="30" rows="5" placeholder="'Extra cheese' or 'leave on front porch'"></textarea>
+            </p>
+            <button type="submit">Order My Pizza!</button>
+
+
+        </fieldset>
+
+
+
+
+    </form>
+
+</body>
+
+</html>
