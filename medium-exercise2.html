@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="display: flex; justify-content: center; margin-top: 25px; background-color: springgreen; font-size: large;">
+    <form style="display:flex; flex-direction: column; justify-content: center; width: 600px; background-color: rgb(146, 130, 238); border:5px solid rgb(83, 0, 151);">
+        <fieldset style="display:flex; justify-content: space-evenly;">
+            <legend style="text-align: center;">Credit Card Payment</legend>
+            <p>
+                <input type="radio" name="sizeOfPizza" id="visa">
+                <label for="visa">Visa</label>
+            </p>
+            <p>
+                <input type="radio" name="cardType" id="mastercard">
+                <label for="mastercard">Mastercard</label>
+            </p>
+            <p>
+                <input type="radio" name="cardType" id="discover">
+                <label for="discover">Discover</label>
+            </p>
+            <p>
+                <input type="radio" name="cardType" id="amex">
+                <label for="amex">American Express</label>
+            </p>
+        </fieldset>
+        <fieldset style="display: flex; justify-content: space-evenly;">
+            <p>
+                <label for="name">First and Last Name</label>
+                <br/>
+                <input type="text" id="name" placeholder="Bob Smith">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <br />
+                <input type="email" id="email" placeholder="bsmith5@demo.net" />
+            </p>
+        </fieldset>
+        <fieldset style="display:flex; justify-content: space-evenly;">
+            <p>
+                <label for="cardNumber">Card Number</label>
+                <br/>
+                <input type="text" id="cardNumber" placeholder="4444-4444-4444-4444">
+            </p>
+            <p>
+                <label for="expDate">Expiration</label>
+                <br />
+                <input type="date" id="expDate" />
+            </p>
+            <p>
+                <label for="cvc">Security Code</label>
+                <br/>
+                <input type="text" id="cvc" placeholder="123" >
+            </p>
+
+        </fieldset>
+        <fieldset style="display:flex; justify-content: center;">
+        <p>
+            <button type="submit" style="display: flex;">Waste your money, thank you!</button>
+        </p>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
